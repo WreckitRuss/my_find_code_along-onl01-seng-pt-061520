@@ -7,7 +7,7 @@ def my_find(collection)
    if
      yield(collection[i])== true
     return
-    collection[i]
+    new << collection[i]
     end
     i = i + 1
   end
