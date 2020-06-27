@@ -5,7 +5,7 @@ def my_find(collection)
   while i < collection.length
   return collection[i]
    if
-     yield(collection[i])== true
+     yield(collection[i])
     return
     new << collection[i]
     end
